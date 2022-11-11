@@ -1,0 +1,223 @@
+.scream {
+    height: 594.4px;
+    display: block;
+    border: 1px solid;
+} 
+
+.deco_btn1 {
+    display: block;
+    left: 293.7px;
+    position: absolute;
+    top: 234.6px;
+}
+
+.deco_btn2 {
+    display: block;
+    left: 293.7px;
+    position: absolute;
+    top: 303.7px;
+}
+
+.deco_btn3 {
+    display: block;
+    left: 293.7px;
+    position: absolute;
+    top: 373.056px;
+}
+
+.father {
+    height: 46.2px;
+    width: 186.8px;
+    position: absolute;
+}
+
+.father:hover .deco_btn4.main_btn {
+    display: block;
+}
+
+.father:hover .son {
+    display: block;
+}
+
+.deco_btn4 {
+    display: none;
+    float: left;
+    left: 293.7px;
+    position: absolute;
+    top: 523.056px;
+}
+
+.btn_span {
+    position: absolute;
+    top: 4.8px;
+    left: 45.12px;
+}
+
+.son {
+    display: none;
+    float: left;
+    color: white;
+    background: linear-gradient(90deg, rgb(99, 184, 241), pink, rgb(228, 107, 228), rgb(99, 184, 241));
+    border-radius: 50px;
+    border: 1.5px solid;
+    border-color: rgb(187, 100, 238);
+    height: 46.2px;
+    width: 186.8px;
+    font-size: 15px;
+    background-size: 400%;
+}
+
+.son:hover {
+    background: linear-gradient(90deg, orange, hotpink, purple, rgb(119, 119, 221), rgb(99, 184, 241), lightgreen, orange);
+    background-size: 400%;
+}
+
+.son::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+    background: linear-gradient(90deg, white, black);
+    background-size: 400%;
+    border-radius: 20px;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.son:hover::before {
+    animation: sun 8s infinite;
+}
+
+.son:hover {
+    animation: sun 8s infinite;
+}
+
+.btn_span {
+    position: absolute;
+    top: 4.8px;
+    left: 45.12px;
+}
+
+.deco_btnall {
+    background-color: white;
+    border: none;
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Lucida Handwriting", cursive;
+    cursor: pointer;
+    position: absolute;
+    left: 662.016px;
+    top: 23.808px;
+    width: 108px;
+    height: 36px;
+    border-radius: 18px;
+    text-align: center;
+    display: block;
+    border-width: 1px;
+    border-color: rgb(107, 106, 106);
+    border-style: solid;
+}
+
+.deco_btnall:hover {
+    background-color: lightslategray;
+}
+
+.btn_img {
+    position: absolute;
+    left: 14.976px;
+    top: 5.568px;
+    width: 25px;
+}
+
+.myCanvas {
+    left: 160px;
+    position: absolute;
+    top: 10px;
+}
+
+.main_btn {
+    color: white;
+    background: linear-gradient(90deg, rgb(99, 184, 241), pink, rgb(228, 107, 228), rgb(99, 184, 241));
+    border-radius: 50px;
+    border: 1.5px solid;
+    border-color: rgb(187, 100, 238);
+    height: 46.2px;
+    width: 186.8px;
+    font-size: 15px;
+    background-size: 400%;
+}
+
+.main_btn:hover {
+    background: linear-gradient(90deg, orange, hotpink, purple, rgb(119, 119, 221), rgb(99, 184, 241), lightgreen, orange);
+    background-size: 400%;
+}
+
+.main_btn::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+    background: linear-gradient(90deg, white, black);
+    background-size: 400%;
+    border-radius: 20px;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.main_btn:hover::before {
+    animation: sun 8s infinite;
+}
+
+.main_btn:hover {
+    animation: sun 8s infinite;
+}
+
+@keyframes sun {
+    100% {
+        background-position: -400% 0;
+    }
+}
+
+.main_btn1 {
+    color: white;
+    background: rgb(99, 184, 241);
+    border-radius: 50px;
+    border: 1.5px solid;
+    border-color: rgb(187, 100, 238);
+    height: 46.2px;
+    width: 186.8px;
+    font-size: 18px;
+}
+
+.main_btn1:hover {
+    background: linear-gradient(90deg, orange, hotpink, purple, rgb(119, 119, 221), rgb(99, 184, 241), lightgreen, orange);
+    background-size: 400%;
+}
+
+.main_btn1::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -8px;
+    background: linear-gradient(90deg, white, black);
+    background-size: 400%;
+    border-radius: 20px;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.main_btn1:hover::before {
+    animation: sun 8s infinite;
+}
+
+.main_btn1:hover {
+    animation: sun 8s infinite;
+}
